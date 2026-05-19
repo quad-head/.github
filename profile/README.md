@@ -46,3 +46,7 @@ To upload a mod:
 5. Follow the instructions shown in the console
 
 The tool will then create or update the Steam Workshop item for your mod.
+
+# Community Guides
+
+APratfallModFramework: https://github.com/unexpear/APratfallModFramework

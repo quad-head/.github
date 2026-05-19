@@ -32,5 +32,17 @@ The repository includes:
 
 Mods are loaded from:
 
-```text
 GameFolder/mods/<modname>
+
+# Uploading Mods to Steam Workshop
+
+Pratfall includes a `SteamWorkshopUploader.exe` tool located in the game's `mods` folder.
+
+To upload or update a mod:
+1. Run `SteamWorkshopUploader.exe`
+2. A command line window will open
+3. The tool will automatically detect available mods
+4. Select the mod you want to upload
+5. Follow the instructions shown in the console
+
+The tool will then create or update the Steam Workshop item for your mod.

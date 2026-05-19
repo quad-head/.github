@@ -47,6 +47,6 @@ To upload a mod:
 
 The tool will then create or update the Steam Workshop item for your mod.
 
-# Community Guides
+# From the Community
 
 APratfallModFramework: https://github.com/unexpear/APratfallModFramework

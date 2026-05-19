@@ -5,10 +5,11 @@ A hub for Pratfall modding!
 Here you can find:
 - Modding documentation
 - Example mods
-- Community mods
 - Modding resources and tools
 
 If you are working on a mod and want it listed here, feel free to reach out on our Discord server.
+
+[![Join our Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/b9EvyJKd97)
 
 ---
 

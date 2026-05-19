@@ -38,7 +38,7 @@ GameFolder/mods/<modname>
 
 Pratfall includes a `SteamWorkshopUploader.exe` tool located in the game's `mods` folder.
 
-To upload or update a mod:
+To upload a mod:
 1. Run `SteamWorkshopUploader.exe`
 2. A command line window will open
 3. The tool will automatically detect available mods

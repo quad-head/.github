@@ -34,6 +34,18 @@ Mods are loaded from:
 
 GameFolder/mods/<modname>
 
+# Console Logging
+
+By default, Godot does not immediately flush normal log output (`GD.Print`) to the console. This can make debugging mods more difficult.
+
+To enable immediate console flushing, create an `override.cfg` file next to the game executable with the following content:
+
+```ini
+[application]
+
+run/flush_stdout_on_print=true
+```
+
 # Uploading Mods to Steam Workshop
 
 Pratfall includes a `SteamWorkshopUploader.exe` tool located in the game's `mods` folder.
@@ -46,18 +58,6 @@ To upload a mod:
 5. Follow the instructions shown in the console
 
 The tool will then create or update the Steam Workshop item for your mod.
-
-# Console Logging
-
-By default, Godot does not immediately flush normal log output (`GD.Print`) to the console. This can make debugging mods more difficult.
-
-To enable immediate console flushing, create an `override.cfg` file next to the game executable with the following content:
-
-```ini
-[application]
-
-run/flush_stdout_on_print=true
-```
 
 # Steam Workhsop Preview Image
 

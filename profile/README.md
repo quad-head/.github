@@ -47,6 +47,10 @@ To upload a mod:
 
 The tool will then create or update the Steam Workshop item for your mod.
 
+# Steam Workhsop Preview Image
+
+To upload a Steam Workshop preview image, place a `Preview.png`, `Preview.jpg`, or similar image file inside your mod folder. The uploader will automatically use this image as the Workshop thumbnail. The image size limit is 1 MB.
+
 # Examples
 
 Example Mod: https://github.com/quad-head/pratfall-example-mod

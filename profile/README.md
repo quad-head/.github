@@ -47,6 +47,11 @@ To upload a mod:
 
 The tool will then create or update the Steam Workshop item for your mod.
 
+# Examples
+
+Example Mod: https://github.com/quad-head/pratfall-example-mod
+Infinite Flare Mod: https://github.com/quad-head/pratfall-infinite-flare-mod
+
 # From the Community
 
 APratfallModFramework: https://github.com/unexpear/APratfallModFramework

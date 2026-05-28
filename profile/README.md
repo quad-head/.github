@@ -59,6 +59,10 @@ To upload a mod:
 
 The tool will then create or update the Steam Workshop item for your mod.
 
+The uploader stores the Steam Workshop item ID in a `workshop_manifest.json` file inside the mod folder. This file is used to determine whether the uploader should create a new Workshop item or update an existing one.
+
+If you delete your Workshop item through the Steam Workshop website or Steam UI, you must also delete the local `workshop_manifest.json` file before uploading again. Otherwise, the uploader will attempt to update a Workshop item that no longer exists.
+
 # Steam Workhsop Preview Image
 
 To upload a Steam Workshop preview image, place a `Preview.png`, `Preview.jpg`, or similar image file inside your mod folder. The uploader will automatically use this image as the Workshop thumbnail. The image size limit is 1 MB.
